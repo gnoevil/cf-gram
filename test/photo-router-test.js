@@ -16,7 +16,7 @@ const photoMock = require('./lib/photo-mock.js');
 const serverControl = require('./lib/server-control.js');
 
 // start server
-const baseURL = `http://localhost:${process.env.PORT}`;
+const baseURL = process.env.BASE_URL;
   const server = require('../server.js');
 // shred some tests
 
