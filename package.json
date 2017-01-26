@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",
+    "lint": "./node_modules/eslint/bin/eslint.js .",
     "debug": "DEBUG=cf* npm run test"
   },
   "keywords": [],
@@ -28,6 +29,7 @@
   "devDependencies": {
     "aws-sdk-mock": "^1.6.1",
     "chai": "^3.5.0",
+    "eslint": "^3.14.1",
     "mocha": "^3.2.0",
     "superagent": "^3.3.2"
   }
